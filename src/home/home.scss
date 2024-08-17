@@ -1,0 +1,7 @@
+.home {
+    background-color: var(--main-color);
+    // padding-top: 5000px; /* Add padding to account for the height of the fixed navbar */
+    overflow: hidden;
+    // else listitem in list.jsx will come beyond maximum right side margin
+  }
+  

@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+    background: linear-gradient(to top, transparent 0% , rgb(0, 0, 0) 50%);
+//if space after class the & in not a property
+    
+  &.black
+    {
+        background-color: var(--main-color);
+    }
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px; /* Add horizontal padding for space on the sides */
+    font-size: 16.5px;
+  }
+  
+
+
+
+  .left {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; /* Start left content 5px from the border */
+  }
+
+  .left img {
+    height: 35px;
+    margin-right: 20px;
+  }
+  
+
+
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right img {
+    padding-top: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .right span {
+    margin-right: 20px;
+  }
+  
+  .right .icon {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+  .profile
+  {
+    .options
+    {
+        display:none;
+        background-color: var(--main-color);
+        border-radius: 5px;
+
+    }
+
+    span
+    {
+        cursor: pointer;
+        padding: 10px;
+    }
+
+//when statement
+    &:hover
+    {
+        .options
+        {
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+        }
+        
+    }
+  }
+
+
+
+
+
+
+
+  span {
+    color: #fff;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  span:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
